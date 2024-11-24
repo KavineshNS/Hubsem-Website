@@ -19,11 +19,11 @@ const LittleContact = () => {
             
         </div>
         <div className='col-12 col-sm-4 social-media'>
-            <a  href='https://www.facebook.com/hubsemsolutions'target='_blank' className="App-Icon">< FontAwesomeIcon icon={faFacebookF} /></a>
-            <a  href='https://www.instagram.com/hubsemsolutions/'target='_blank' className="App-Icon"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a  href='https://x.com/hubsem'target='_blank' className="App-Icon"> <FontAwesomeIcon icon={faSquareTwitter} /></a>
-            <a  href='https://www.linkedin.com/company/hubsem-software-solutions/mycompany/'target='_blank' className="App-Icon"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href='https://www.youtube.com/@hubsemsoftwaresolutions'target='_blank' className="App-Icon"><FontAwesomeIcon icon={faYoutube} /></a>
+            <a  href='https://www.facebook.com/hubsemsolutions'target='_blank' rel="noreferrer" className="App-Icon">< FontAwesomeIcon icon={faFacebookF} /></a>
+            <a  href='https://www.instagram.com/hubsemsolutions/'target='_blank' rel="noreferrer" className="App-Icon"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a  href='https://x.com/hubsem'target='_blank' rel="noreferrer" className="App-Icon"> <FontAwesomeIcon icon={faSquareTwitter} /></a>
+            <a  href='https://www.linkedin.com/company/hubsem-software-solutions/mycompany/'target='_blank' rel="noreferrer" className="App-Icon"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a href='https://www.youtube.com/@hubsemsoftwaresolutions'target='_blank' rel="noreferrer" className="App-Icon"><FontAwesomeIcon icon={faYoutube} /></a>
             
         </div>
        </div>

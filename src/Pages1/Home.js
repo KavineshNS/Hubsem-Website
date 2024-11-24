@@ -6,7 +6,6 @@ import '../Pages1/CSS/Home.css'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Aos from 'aos';
-import { useState } from 'react'
 
 // Import Images 
 import Mainimg from '../Images1/Home/Home Page img.jpg'
@@ -28,7 +27,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 //Import Icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faInstagram, faSquareTwitter, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faInstagram, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
 
@@ -38,8 +37,8 @@ const Home = () => {
   Aos.init();
 
 
-  const [selectedOption, setSelectedOption] = useState('');
-  const [isValid, setIsValid] = useState(true);
+  // const [selectedOption, setSelectedOption] = useState('');
+  // const [isValid, setIsValid] = useState(true);
 
   useEffect(() => {
     const form = document.querySelector('form');
@@ -328,11 +327,11 @@ const Home = () => {
               {/* social media */}
               <div className='Form-socialmedia'>
 
-                <a href='https://www.facebook.com/hubsemsolutions' target='_blank' className="Form-AppIcon facebook">< FontAwesomeIcon icon={faFacebookF} /></a>
-                <a href='https://www.instagram.com/hubsemsolutions/' target='_blank' className="Form-AppIcon instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-                <a href='https://x.com/hubsem' target='_blank' className="Form-AppIcon twitter"> <i className="fa-brands fa-twitter"></i></a>
-                <a href='https://www.linkedin.com/company/hubsem-software-solutions/mycompany/' target='_blank' className="Form-AppIcon linkedin"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                <a href='https://www.youtube.com/@hubsemsoftwaresolutions' target='_blank' className="Form-AppIcon youtube"><FontAwesomeIcon icon={faYoutube} /></a>
+                <a href='https://www.facebook.com/hubsemsolutions' target='_blank' rel="noreferrer" className="Form-AppIcon facebook">< FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href='https://www.instagram.com/hubsemsolutions/' target='_blank' rel="noreferrer" className="Form-AppIcon instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href='https://x.com/hubsem' target='_blank' rel="noreferrer" className="Form-AppIcon twitter"> <i className="fa-brands fa-twitter"></i></a>
+                <a href='https://www.linkedin.com/company/hubsem-software-solutions/mycompany/' target='_blank' rel="noreferrer" className="Form-AppIcon linkedin"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                <a href='https://www.youtube.com/@hubsemsoftwaresolutions' target='_blank' rel="noreferrer" className="Form-AppIcon youtube"><FontAwesomeIcon icon={faYoutube} /></a>
 
               </div>
 

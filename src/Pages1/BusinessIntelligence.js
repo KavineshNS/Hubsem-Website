@@ -96,7 +96,7 @@ const BusinessIntelligence = () => {
           <div className='bi-custom-timeline m-0 '>
             <VerticalTimeline >
 
-              { BusinessIntelligencekey .map((record) => {
+              {BusinessIntelligencekey.map((record) => {
                 return (
                   <VerticalTimelineElement
                     key={record.id}

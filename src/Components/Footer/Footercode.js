@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom';
 import whitelogo from '../../Images1/logo-white.png';
 import Backgroundimg from '../../Images1/Background image.jpeg'
@@ -14,7 +14,7 @@ const Footercode = () => {
     <footer className='footer container-fluid '>
 
       {/* Background image  */}
-        <img src={Backgroundimg} className="Background-Image"/> 
+        <img src={Backgroundimg} alt="" className="Background-Image"/> 
 
         {/* Footer-content */}
       <div className='footer-top col-12 row'>
@@ -22,7 +22,7 @@ const Footercode = () => {
             {/* footer logo */}
             <div className='col-12 col-sm-4 col-md-6 ps-5'>
                 <Link  to="/">
-                  <img src={whitelogo} height="150px" width="128px" className='footer-logo'></img>
+                  <img src={whitelogo} alt="" height="150px" width="128px" className='footer-logo'></img>
               </Link>
               <p className='logo-content'>Our team of experts specializes in a wide range of IT services, ensuring that we can meet all your technology needs.</p>
             </div>
